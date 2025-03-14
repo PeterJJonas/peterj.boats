@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(239, 238, 191);
+    color: rgba(0, 10, 0, 0.86);
+}
+
+.container {
+    text-align: center;
+}
+
+a {
+    display: block;
+    margin: 0px 0;
+    text-decoration: none;
+    font-size: 18px;
+    color: #3498db;
+    border-color: #000000; /* Set initial border color */
+    transition: color 0.3s, border-color 0.3s;
+    border: 2px solid transparent; /* Add a border with transparent color */
+    padding: 0px; /* Add padding for spacing inside the border */
+    border-radius: 0px; /* Optional: Add rounded corners */
+}
+
+a:hover {
+    color: #2c3e50;
+    border-color: #3498db; /* Change border color on hover */
+}
+
+img {
+    vertical-align: middle;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image fits within the circle */
+    margin: 20px 0; /* Adds spacing around the image */
+}
+
+.link-pic {
+    width: 140px; /* Set a consistent width */
+    height: 100px; /* Set a consistent height */
+    object-fit: contain; /* Ensures the image fits within the dimensions */
+    margin: 0px 0; /* Adds spacing around the image */
+}
